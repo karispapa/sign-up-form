@@ -13,6 +13,12 @@ a {
   text-decoration: underline;
   color: rgb(240, 248, 255, 0.7);
 }
+input[type='email']:invalid {
+  border: 1px solid red;
+}
+input[type='email']:valid {
+  border: 1px solid green;
+}
 .container {
   height: 100vh;
   /* width: calc(100vw - max(200px, 400px)); */
